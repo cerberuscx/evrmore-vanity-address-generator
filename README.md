@@ -19,6 +19,20 @@ Save the script to a file, for example, vanity_address_generator.py, and run it:
 python3 vanity_address_generator.py
 ```
 
+## Example Output
+```
+======= Vanity Address Generator =======
+Address: ENSO12345...
+Private Key (WIF format): L1aW4aubDFB7yfras2S1mN3bqg9zX5gds...
+Private Key (p2pkh format): p2pkh:L1aW4aubDFB7yfras2S1mN3bqg9zX5gds...
+
+======= Important Information =======
+WARNING: The private key has been generated and stored in memory. Ensure that you keep it secure and do not share it with anyone.
+To import the private key into Evrmore Electrum, use the following command in the Electrum console:
+importprivkey('your_private_key_wif')
+Ensure you have backed up your private key securely before using it.
+```
+
 
 ## Important Information
 
