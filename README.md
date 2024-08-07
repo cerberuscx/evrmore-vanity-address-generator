@@ -12,12 +12,14 @@ Install dependencies using pip:
 pip install base58 ecdsa
 ```
 
+
+## Usage
+Save the script to a file, for example, vanity_address_generator.py
 Set the desired prefix on line 16 in the python script and note EVR addresses must start with an 'E'
 ```
 PREFIX = 'ENSo'
 ```
-## Usage
-Save the script to a file, for example, vanity_address_generator.py, and run it:
+Run it:
 ```
 python vanity_address_generator.py
 ```
