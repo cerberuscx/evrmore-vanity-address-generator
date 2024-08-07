@@ -36,10 +36,12 @@ Ensure you have backed up your private key securely before using it.
 
 ## Important Information
 
-- **Valid Characters**: Evrmore addresses use Base58 encoding, which means not all characters are valid. The valid characters are:
+- **Valid Characters**: Evrmore addresses use Base58 encoding, which means **NOT** all characters are valid. The valid characters are:
 ```
-1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz
+123456789ABCDEFGHJKLMNPQRSTUVWXYZabcdefghijkmnopqrstuvwxyz
 ```
+- (Notice the absence of '0', 'I', 'O', and 'l')
+
 - **Security Warning**: The private key is generated and stored in memory. Ensure that you keep it secure and do not share it with anyone.
 
 - **Importing to Evrmore Electrum**: Use the following command in the Electrum console to import the private key:
