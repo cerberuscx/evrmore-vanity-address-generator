@@ -16,13 +16,13 @@ pip install base58 ecdsa
 ## Usage
 Save the script to a file, for example, vanity_address_generator.py, and run it:
 ```
-python3 vanity_address_generator.py
+python vanity_address_generator.py
 ```
 
 ## Example Output
 ```
 ======= Vanity Address Generator =======
-Address: ENSO12345...
+Address: ENSo12345...
 Private Key (WIF format): L1aW4aubDFB7yfras2S1mN3bqg9zX5gds...
 Private Key (p2pkh format): p2pkh:L1aW4aubDFB7yfras2S1mN3bqg9zX5gds...
 
@@ -48,7 +48,7 @@ Ensure you have backed up your private key securely before using it.
 ```python
 importprivkey('your_private_key_wif')
 ```
-- **Performance Note**: Generating a vanity address with an all-uppercase prefix (e.g., "ENSO") can take significantly longer than a mixed-case prefix due to the increased complexity of matching the case-sensitive characters.
+- **Performance Note**: Generating a vanity address with an all-uppercase prefix (e.g., "ENSo") can take significantly longer than a mixed-case prefix due to the increased complexity of matching the case-sensitive characters.
 
 
 ## License
