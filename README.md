@@ -18,6 +18,10 @@ Save the script to a file, for example, vanity_address_generator.py, and run it:
 ```
 python vanity_address_generator.py
 ```
+The set the desired prefix on line 16 in the python script and note EVR addresses must start with an 'E'
+```
+PREFIX = 'ENSo'
+```
 
 ## Example Output
 ```
